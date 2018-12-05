@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRedactor", "TextRedactor\TextRedactor.csproj", "{6ACA3000-E348-490C-BF77-16365FFF2D56}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {52ED3486-145A-4D4B-8B88-BEF6C7DE1776}
+		SolutionGuid = {9F1879EC-D282-4C17-B0A7-6B518B3E8ABD}
 	EndGlobalSection
 EndGlobal
