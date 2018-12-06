@@ -30,8 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.newWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.closeAllWindowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGraphWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.closeAllWindowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,19 +55,19 @@
             this.newWindowToolStripMenuItem.Text = "New text window";
             this.newWindowToolStripMenuItem.Click += new System.EventHandler(this.newWindowToolStripMenuItem_Click);
             // 
+            // newGraphWindowToolStripMenuItem
+            // 
+            this.newGraphWindowToolStripMenuItem.Name = "newGraphWindowToolStripMenuItem";
+            this.newGraphWindowToolStripMenuItem.Size = new System.Drawing.Size(131, 20);
+            this.newGraphWindowToolStripMenuItem.Text = "New graphic window";
+            this.newGraphWindowToolStripMenuItem.Click += new System.EventHandler(this.newGraphWindowToolStripMenuItem_Click);
+            // 
             // closeAllWindowsToolStripMenuItem
             // 
             this.closeAllWindowsToolStripMenuItem.Name = "closeAllWindowsToolStripMenuItem";
             this.closeAllWindowsToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
             this.closeAllWindowsToolStripMenuItem.Text = "Close all windows";
             this.closeAllWindowsToolStripMenuItem.Click += new System.EventHandler(this.closeAllWindowsToolStripMenuItem_Click);
-            // 
-            // newGraphWindowToolStripMenuItem
-            // 
-            this.newGraphWindowToolStripMenuItem.Name = "newGraphWindowToolStripMenuItem";
-            this.newGraphWindowToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
-            this.newGraphWindowToolStripMenuItem.Text = "New graph window";
-            this.newGraphWindowToolStripMenuItem.Click += new System.EventHandler(this.newGraphWindowToolStripMenuItem_Click);
             // 
             // Main_Form
             // 

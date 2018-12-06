@@ -26,7 +26,7 @@ namespace TextRedactor
 
         private void newWindowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 mdiChild = Form1.getInstance();
+            Document mdiChild = Form1.getInstance();
             mdiChild.MdiParent = this;
             mdiChild.Show();
         }
@@ -42,7 +42,7 @@ namespace TextRedactor
 
         private void newGraphWindowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 mdiChild = Form3.getInstance();
+            Document mdiChild = new Form3();
             mdiChild.MdiParent = this;
             mdiChild.Show();
         }

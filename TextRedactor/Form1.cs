@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace TextRedactor
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Document
     {
         private static Form1 instance; //ссылка на конкретный экземпляр
         private static int MaxCountWindow = 10; //максимальное число экземпляров
@@ -44,7 +44,8 @@ namespace TextRedactor
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.richTextBox1.Clear();
+           this.richTextBox1.Clear();
+            
         }
 
         private long FileSize()
